@@ -1,0 +1,45 @@
+// Matric NSC South Africa Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM117",
+  slug: "matric-nsc-south-africa",
+  name: "Matric NSC South Africa",
+  fullName: "National Senior Certificate",
+  alias: "National Senior Certificate",
+  family: "NSC",
+  category: "School exams",
+  subcategory: "Secondary leaving",
+  country: "South Africa",
+  region: "Africa",
+  languages: ["English + African languages"],
+  estimatedAnnualTakers: "large",
+  testingWindow: "Oct-Nov",
+  schedulePattern: "Annual",
+  ageGroup: "17-19",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["Objective + written"],
+  adaptivity: "Linear",
+  sections: "Subject exams",
+  scoringMode: "Subject marks",
+  essayOrSpeaking: "Writing",
+  ipRisk: "Low",
+  contentReuse: "school_subjects",
+  uiEngine: "paper_objective_plus_written",
+  monetizationPotential: "High",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "High",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

@@ -1,0 +1,5 @@
+Initial release of Koydo Matric NSC South Africa Prep.
+
+• Practise questions
+• Score tracking
+• AI tutor integration
